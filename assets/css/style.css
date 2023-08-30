@@ -61,11 +61,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    overflow: hidden;
 }
 .content .text-box 
 {
     position: absolute;
     max-width: 200px;
+    
 }
 .content .text-box h2 {
     color: #fff;
@@ -114,6 +116,8 @@
     align-items: center;
     flex-direction: column;
     color: #fff;
+    width: 20px;
+    height: 20px;
 }
 .sci li 
 {
